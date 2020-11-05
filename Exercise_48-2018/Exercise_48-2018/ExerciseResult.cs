@@ -18,5 +18,9 @@ namespace Exercise_48_2018
         public string StudentName { get; set; }
         public string StudentIndeks { get; set; }
         public int Points { get; set; }
+        public override string ToString()
+        {
+            return Id + " " + StudentName + " " + StudentIndeks + " " + Points;
+        }
     }
 }
